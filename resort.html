@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Ultimate Ski Guide</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+	<div class="navbar-wrap">
+		<nav id="navbar" class="sticky">
+		  <span class="open-slide">
+		    <a onclick="openSlideMenu()">
+		    	<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+		    </a>
+		  </span>
+
+		  <ul class="navbar-nav">
+		    <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+		    <li><a href="history.html"><i class="fa fa-history" aria-hidden="true"></i>History</a></li>
+		     <li><a href="resort.html"><i class="fa fa-flag" aria-hidden="true"></i>Resort</a></li>
+		    <li><a href="about.html"><i class="fa fa-phone-square" aria-hidden="true"></i>About Us</a></li>
+		  </ul>
+		</nav> 
+	</div><!-- NAVBAR -->
+
+	<div id="side-menu" class="side-nav">
+	  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+	  <a href="index.html">Home</a>
+	  <a href="history.html">History</a>
+	  <a href="resort.html">Resort</a>
+	  <a href="about.html">About Us</a>
+	</div> <!-- HAMBERGER MENU -->
+	
+
+	<div class="container resort">
+		<section class="s1">
+			<div class="pic1">
+				<h1>Resort 1</h1>
+				<img src="images/resort1.jpg" alt="Resort1 image">
+			</div>
+
+			<div class="article resort-article">
+				<h2>The Mountain</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quis, in sed. Provident porro ducimus quia, ut doloremque, nesciunt deleniti numquam sint explicabo hic quis molestias dolore minima quidem quisquam. Earum magni aut, a praesentium dolorum quos, aspernatur, quisquam dolorem repellendus eos ipsa possimus. Praesentium enim omnis facilis consequuntur, vel dolore recusandae doloribus quo, alias in quae officiis corporis ut! Doloribus commodi voluptas odit, optio explicabo  laudantium adipisci.</p>
+
+				<h2>Lodging Offers</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aperiam assumenda, libero, quae nam, nisi earum quod consequuntur laudantium possimus dolor quaerat quibusdam dolorem quisquam corrupti, tempora. Vero qui mollitia magni rem praesentium ducimus aliquid, tempora id velit sed porro culpa quibusdam i. Repellendus alias officia dolorum, itaque similique laborum eaque libero porro ex maiores. Repellat obcaecati eos ipsum inventore neque id ratione sequi, esse quae quidem reprehenderit ducimus.</p>
+			</div>
+			
+			<div class="inforbox">
+				<div class="open-hour">
+					<h3>Openning Hours</h3>
+					<ul>
+						<li>Monday to Thursday: 8:30 to 17:00</li>
+						<li>Friday: 8:30 to 18:00 </li>
+						<li>Saturday: 8:30 to 22:00 </li>
+						<li>Sunday: 9:00 to 22:00</li>
+					</ul>
+				</div>
+				<div id="map"></div>
+			</div>
+
+		</section><!--  RESORT ONE -->
+
+		<section class="s2">
+			<div class="pic2">
+				<h1>Resort 2</h1>
+				<img src="images/resort2.jpg" alt="Resort2 image">
+			</div>
+
+			<div class="article resort-article">
+				<h2>The Mountain</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quis, in sed. Provident porro ducimus quia, ut doloremque, nesciunt deleniti numquam sint explicabo hic quis molestias dolore minima quidem quisquam. Earum magni aut, a praesentium dolorum quos, aspernatur, quisquam dolorem repellendus eos ipsa possimus. Praesentium enim omnis facilis consequuntur, vel dolore recusandae doloribus quo, alias in quae officiis corporis ut! Doloribus commodi voluptas odit, optio explicabo  laudantium adipisci.</p>
+
+				<h2>Lodging Offers</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aperiam assumenda, libero, quae nam, nisi earum quod consequuntur laudantium possimus dolor quaerat quibusdam dolorem quisquam corrupti, tempora. Vero qui mollitia magni rem praesentium ducimus aliquid, tempora id velit sed porro culpa quibusdam i. Repellendus alias officia dolorum, itaque similique laborum eaque libero porro ex maiores. Repellat obcaecati eos ipsum inventore neque id ratione sequi, esse quae quidem reprehenderit ducimus.</p>
+			</div>
+			
+			<div class="inforbox">
+				<div class="open-hour">
+					<h3>Openning Hours</h3>
+					<ul>
+						<li>Monday to Thursday: 8:30 to 17:00</li>
+						<li>Friday: 8:30 to 18:00 </li>
+						<li>Saturday: 8:30 to 22:00 </li>
+						<li>Sunday: 9:00 to 22:00</li>
+					</ul>
+				</div>
+				<div id="map1">
+					<img src="images/map1.jpg" alt="map"></div>
+				</div>
+
+		</section> <!-- RESORT TWO -->
+
+		
+	
+
+
+
+
+
+	
+	</div><!-- CONTAINER -->
+	<footer>
+		<p>Copyright &copy; 2017 ABC Inc. - All rights reserved.</p>
+	</footer>
+
+	<script>
+
+		function openSlideMenu(){
+		document.getElementById('side-menu').style.width = '250px';
+		document.getElementById('main').style.marginLeft = '250px';
+		}
+
+		function closeSlideMenu(){
+		document.getElementById('side-menu').style.width = '0';
+		document.getElementById('main').style.marginLeft = '0';
+		}
+
+	</script>	
+
+	<script>
+      function initMap() {
+        var uluru = {lat: 46.221, lng: -74.553};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs5r0azZhUhuKs60qp-Efnryt5GUEoomw&callback=initMap">
+    </script>
+	
+</body>
+</html>

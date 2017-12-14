@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Ultimate Ski Guide</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body onscroll="myFunction()">
+
+	<div id="cover">
+		<video  id="covervideo" autoplay loop muted poster="images/coverimage.jpg">
+			<source src="videos/covervideo.mp4" type="video/mp4">
+		</video>
+	
+		<header id="cover-header">
+			<div id="speed" class="flash-txt"><h1>The Speed</h1></div>
+			<div id="passion" class="flash-txt"><h1>The Passion</h1></div>
+			<div id="spirit" class="flash-txt"><h1>The Spirit</h1></div>
+
+			<h1 id="main-headline">On The Summit</h1>
+			<h2>The Ultimate Ski Guide</h2>
+			<a href="#navbar">Enter</a>
+		</header>
+	</div>	<!-- LANDING PAGE -->
+
+	<div class="navbar-wrap">
+		<nav id="navbar">
+		  <span class="open-slide">
+		    <a onclick="openSlideMenu()">
+		    	<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+		    </a>
+		  </span>
+
+		  <ul class="navbar-nav">
+		    <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+		    <li><a href="history.html"><i class="fa fa-history" aria-hidden="true"></i>History</a></li>
+		     <li><a href="resort.html"><i class="fa fa-flag" aria-hidden="true"></i>Resort</a></li>
+		    <li><a href="about.html"><i class="fa fa-phone-square" aria-hidden="true"></i>About Us</a></li>
+		  </ul>
+		</nav> 
+	</div><!-- NAVBAR -->
+
+	<div id="side-menu" class="side-nav">
+	  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+	  <a href="index.html">Home</a>
+	  <a href="history.html">History</a>
+	  <a href="resort.html">Resort</a>
+	  <a href="about.html">About Us</a>
+	</div> <!-- HAMBERGER MENU -->
+	<div class="container home-container">
+		<section class="weather">
+			<div id="wedget">
+				<iframe src="https://www.meteoblue.com/en/weather/widget/daily/montreal_canada_6077243?geoloc=fixed&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=coloured&pictoicon=0&pictoicon=1&maxtemperature=0&mintemperature=0&mintemperature=1&windspeed=0&windgust=0&winddirection=0&uv=0&humidity=0&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&pressure=0&layout=dark"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 250px;height: 243px"></iframe><div><a href="https://www.meteoblue.com/en/weather/forecast/week/montreal_canada_6077243?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank"></a></div>
+			</div>
+		</section>
+		
+		<article>
+			<div class="summary">
+				<h1>On the summit</h1>
+				<h2>the ultimate ski guide</h2>
+				<p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur dolor. rient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu</p>
+
+				<p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu</p>
+			</div>
+
+			<figure>
+				<div class="pic-title pt1">
+					<h1>Alpine Skiing</h1>
+				</div>
+				<img src="images/ski.jpg" alt="ski">
+				<figcaption>Man ski at night</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+
+			<img class="pull_quote left" src="images/ski1.jpg"> 
+			<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+
+			<p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+
+			<img class="pull_quote right" src="images/ski2.jpg"> 
+			<p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+			<p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+			<br>
+
+
+		</article><!-- ALPINE SKI -->
+
+		<article>
+			<figure>
+				<div class="pic-title pt2">
+					<h1>Snowboard</h1>
+				</div>
+				<img src="images/snowboard.jpg" alt="snowboard">
+				<figcaption>Powder snowboard</figcaption>
+			</figure>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+
+			<img class="pull_quote right" src="images/snowboard1.jpg"> 
+			<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+
+			<p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut liberPhasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+
+			<img class="pull_quote left" src="images/snowboard2.jpg"> 
+			<p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+			<p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+			<br>
+	
+			
+		</article><!-- SNOWBOARD  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	</div><!-- CONTAINER -->
+	<footer>
+		<p>Copyright &copy; 2017 ABC Inc. - All rights reserved.</p>
+	</footer>
+
+	<script>
+
+		var navbar = document.getElementById('navbar');
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+		    navbar.classList.add('sticky')
+		  } else {
+		    navbar.classList.remove('sticky');
+		  }
+		}
+
+		function openSlideMenu(){
+		document.getElementById('side-menu').style.width = '250px';
+		document.getElementById('main').style.marginLeft = '250px';
+		}
+
+		function closeSlideMenu(){
+		document.getElementById('side-menu').style.width = '0';
+		document.getElementById('main').style.marginLeft = '0';
+		}
+
+
+
+	</script>	
+
+	
+</body>
+</html>

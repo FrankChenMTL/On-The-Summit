@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Ultimate Ski Guide</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+	<div class="navbar-wrap">
+		<nav id="navbar" class="sticky">
+		  <span class="open-slide">
+		    <a onclick="openSlideMenu()">
+		    	<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+		    </a>
+		  </span>
+
+		  <ul class="navbar-nav">
+		    <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+		    <li><a href="history.html"><i class="fa fa-history" aria-hidden="true"></i>History</a></li>
+		     <li><a href="resort.html"><i class="fa fa-flag" aria-hidden="true"></i>Resort</a></li>
+		    <li><a href="about.html"><i class="fa fa-phone-square" aria-hidden="true"></i>About Us</a></li>
+		  </ul>
+		</nav> 
+	</div><!-- NAVBAR -->
+
+	<div id="side-menu" class="side-nav">
+	  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+	  <a href="index.html">Home</a>
+	  <a href="history.html">History</a>
+	  <a href="resort.html">Resort</a>
+	  <a href="about.html">About Us</a>
+	</div> <!-- HAMBERGER MENU -->
+	
+	<div id="lamp">
+        <input class="input1" type="radio" name="switch" value="on" />
+        <input class="input1" type="radio" name="switch" value="off" checked="checked"/>
+        <label class="label1" for="switch"></label>
+        <div id="line"></div>
+
+    </div>
+
+<!-- 	<div class="bg-wrap">
+		<video  id="snowvideo" autoplay loop muted width="600" height="500">
+			<source src="videos/snow.mp4" type="video/mp4">
+		</video>
+		<img id="wall" src="images/wall.png">
+	</div>
+ -->
+
+	<div class="container history-container">
+		<article class="article-history">
+			<section class="s1">
+				<h1>Etymology and Usage</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quis, in sed. Provident porro ducimus quia, ut doloremque, nesciunt deleniti numquam sint explicabo hic quis molestias dolore minima quidem quisquam. Earum magni aut, a praesentium dolorum quos, aspernatur, quisquam dolorem repellendus eos ipsa possimus. Praesentium enim omnis facilis consequuntur, vel dolore recusandae doloribus quo, alias in quae officiis corporis ut! Doloribus commodi voluptas odit, optio explicabo  laudantium adipisci.</p>
+			</section>
+
+			<section class="s2">
+				<h1>Skiing as Transportation</h1>
+				<figure id="fig1">
+					<img  src="images/history4.jpg" alt="Troops">
+					<figcaption>British troops in Norway, April 1940</figcaption>
+				</figure>
+				<p id="trans">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quis, in sed. Provident porro ducimus quia, ut doloremque, nesciunt deleniti numquam sint explicabo hic quis molestias dolore minima quidem quisquam. Earum magni aut, a praesentium dolorum quos, aspernatur, quisquam dolorem repellendus eos ipsa possimus. Praesentium enim omnis facilis consequuntur, vel dolore recusandae doloribus quo, alias in quae officiis corporis ut! Doloribus commodi voluptas odit, optio explicabo repellat! Rem harum dolores atque. Illum doloribus vitae, aspernatur, eveniet deserunt itaque veritatis commodi nemo quod vel pariatur culpa deleniti sed accusamus ex aut obcaecati saepe perspiciatis odio ut officiis suscipit eos. Deserunt at reiciendis delectus, doloremque ullam quibusdam ipsam quam, placeat dolore magnam dignissimos perferendis facilis reprehenderit laudantium adipisci.</p>
+			
+			</section>
+
+			<section class="s3">
+				<h1>Skiing as Recreation</h1>
+				<figure id="fig2">
+					<img  src="images/history3.jpg" alt="Ski Recreation">
+					
+				</figure>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quis, in sed. Provident porro ducimus quia, ut doloremque, nesciunt deleniti numquam sint explicabo hic quis molestias dolore minima quidem quisquam. Earum magni aut, a praesentium dolorum quos, aspernatur, quisquam dolorem repellendus eos ipsa possimus. Praesentium enim omnis facilis consequuntur, vel dolore recusandae doloribus quo, alias in quae officiis corporis ut! Doloribus commodi voluptas odit, optio explicabo repellat! Rem harum dolores atque.</p> 
+				<p>Illum doloribus vitae, aspernatur, eveniet deserunt itaque veritatis commodi nemo quod vel pariatur culpa deleniti sed accusamus ex aut obcaecati saepe perspiciatis odio ut officiis suscipit eos. deserunt itaque veritatis commodi nemo quod vel pariatur culpa deleniti sed accusamus ex aut obcaecati saepe perspiciatis odio ut officiis suscipit eos. Deserunt at reiciendis delectus, doloremque ullam quibusdam ipsam quam, placeat dolore magnam dignissimos perferendis facilis reprehenderit laudantium adipisci.Deserunt at reiciendis delectus, doloremque ullam quibusdam ipsam quam, placeat dolore magnam dignissimos perferendis facilis reprehenderit laudantium adipisicingi.</p>
+			</section>
+
+			<section class="s4">
+				<h1>Skiing as Sport</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quis, in sed. Provident porro ducimus quia, ut doloremque, nesciunt deleniti numquam sint explicabo hic quis molestias dolore minima quidem quisquam. Earum magni aut, a praesentium dolorum quos, aspernatur, quisquam dolorem repellendus eos ipsa possimus. Praesentium enim omnis facilis consequuntur, vel dolore recusandae doloribus quo, alias in quae officiis corporis ut! Doloribus commodi voluptas odit, optio explicabo repellat! Rem harum dolores atque. Illum doloribus vitae, aspernatur, eveniet </p>
+			</section>
+			<section class="s5">
+				<h1>Evolution of Equipment</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quis, in sed. Provident porro ducimus quia, ut doloremque, nesciunt deleniti numquam sint explicabo hic quis molestias  ullam quibusdam ipsam quam, placeat dolore magnam dignissimos perferendis facilis reprehenderit laudantium adipisci.</p>
+				<img src="images/history1.jpg" alt="ski binding">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quis,dolore minima quidem quisquam. Earum magni aut, a praesentium dolorum quos, aspernatur, quisquam dolorem repellendus eos ipsa possimus. s ex aut obcaecati saepe perspiciatis odio ut officiis suscipit eos. Deserunt at reiciendis delectus, doloremque in sed. Provident porro ducimus quia, ut doloremque, nesciunt deleniti numquam sint explicabo hic quis molestias dolore minima quidem quisquam. Earum magni aut, a praesentium dolorum quos, aspernatur, quisquam dolorem repellendus eos ipsa possimus. Praesentium enim omnis facilis consequuntur, vel dolore recusandae doloribus quo, alias in quae officiis corporis ut! Doloribus commodi voluptas odit, optio explicabo repellat! Rem harum dolores atque. Illum doloribus </p>
+				<p>vitae, aspernatur, eveniet deserunt itaque veritatis commodi nemo quod vel pariatur culpa deleniti sed accusamus ex aut obcaecati saepe perspiciatis odio ut officiis suscipit eos. Deserunt at reiciendis delectus, doloremque ullam quibusdam ipsam quam, placeat dolore magnam dignissimos perferendis facilis reprehenderit laudantium adipisci.</p>
+				<img src="images/history5.jpg" alt="boots">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quis, in sed. Provident porro ducimus quia, ut doloremque, nesciunt deleniti numquam sint explicabo hic quis molestias  suscipit eos. Deserunt at reiciendis delectus, doloremque ullam quibusdam ipsam quam, placeat dolore magnam dignissimos perferendis facilis reprehenderit laudantium adipisci.</p>
+			</section>
+			
+		</article>
+
+	</div><!-- CONTAINER -->
+
+	<footer>
+		<p>Copyright &copy; 2017 ABC Inc. - All rights reserved.</p>
+	</footer>
+
+	<script>
+
+		function openSlideMenu(){
+		document.getElementById('side-menu').style.width = '250px';
+		document.getElementById('main').style.marginLeft = '250px';
+		}
+
+		function closeSlideMenu(){
+		document.getElementById('side-menu').style.width = '0';
+		document.getElementById('main').style.marginLeft = '0';
+		}
+
+	</script>	
+
+	
+</body>
+</html>
